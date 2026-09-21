@@ -7,6 +7,44 @@ All notable changes to the Misaka Network project are documented here.
 
 ---
 
+## [2.35.0](https://github.com/Ikalus1988/MisakaNet/compare/v2.34.0...v2.35.0) (2026-09-21)
+
+
+### Features
+
+* **intake:** a case harness for the conversion receipt ([#1528](https://github.com/Ikalus1988/MisakaNet/issues/1528)) ([f76c23d](https://github.com/Ikalus1988/MisakaNet/commit/f76c23d210d6b4383c452cba6bcc7bccc3639bae))
+* **intake:** case harness for the conversion receipt ([#1528](https://github.com/Ikalus1988/MisakaNet/issues/1528)) ([96e9c74](https://github.com/Ikalus1988/MisakaNet/commit/96e9c7441074171b07eb5e99793bd71745c130dd))
+* **lessons:** three intakes from the backlog, written from the corpus search ([#2021](https://github.com/Ikalus1988/MisakaNet/issues/2021)) ([3c2dd14](https://github.com/Ikalus1988/MisakaNet/commit/3c2dd14d4d3810ed79284acab2bf07eac053fd3a)), closes [#1130](https://github.com/Ikalus1988/MisakaNet/issues/1130) [#1145](https://github.com/Ikalus1988/MisakaNet/issues/1145) [#1146](https://github.com/Ikalus1988/MisakaNet/issues/1146)
+* **metrics:** finish roadmap milestone ② — hit/miss table with the topic split ([21edbe0](https://github.com/Ikalus1988/MisakaNet/commit/21edbe089910dda973bb781bd9b1dbc6f1869da3))
+* **metrics:** finish roadmap milestone ② — the hit/miss table, with the topic split ([dbea063](https://github.com/Ikalus1988/MisakaNet/commit/dbea063601c4d9641b3cf548658204583c7c9691))
+
+
+### Bug Fixes
+
+* **bench:** the fixture whose job is to time out must not hang the runner ([2d90225](https://github.com/Ikalus1988/MisakaNet/commit/2d90225e8371b3b28c236b7cbc3475ee4f17f96a))
+* **bench:** the fixture whose job is to time out must not hang the runner ([da4b8cc](https://github.com/Ikalus1988/MisakaNet/commit/da4b8ccb2739ef517a9dec4a7420399bae65bc9a))
+* **ci:** give the cross-platform legs failures that mean something ([#2018](https://github.com/Ikalus1988/MisakaNet/issues/2018)) ([5e82f93](https://github.com/Ikalus1988/MisakaNet/commit/5e82f9384694ad7a90b446085dde94de82a57984))
+* **ci:** make the cross-platform legs fail for reasons that are real ([#2018](https://github.com/Ikalus1988/MisakaNet/issues/2018)) ([4c44dd7](https://github.com/Ikalus1988/MisakaNet/commit/4c44dd7be23deb6cbced79d1e31b9f1bf5c2896b))
+* **ci:** stop superseded matrix runs from holding runners ([bbc2f4c](https://github.com/Ikalus1988/MisakaNet/commit/bbc2f4cd28e72e401300b05ec69a19378c18a781))
+* **ci:** stop superseded matrix runs from holding runners ([9260eef](https://github.com/Ikalus1988/MisakaNet/commit/9260eef5fa08088b36661ccceb6994bc261ad54d))
+* **installer:** macOS one-liner was broken, and the cross-platform legs need a time bound ([1b054a1](https://github.com/Ikalus1988/MisakaNet/commit/1b054a172fb00298a19b9a79f8f886180bc7488e))
+* **installer:** the one-liner was broken on macOS, and the legs had no time bound ([5760487](https://github.com/Ikalus1988/MisakaNet/commit/576048707190f164fc60446c7bfca332eac03ba7))
+* **windows:** the 16 failures, and the three product bugs behind them ([f1c6f5f](https://github.com/Ikalus1988/MisakaNet/commit/f1c6f5fa93c05410f6aba497c5c147c5db01345d))
+* **windows:** the 16 failures, and the three product bugs behind them ([5ab7a4a](https://github.com/Ikalus1988/MisakaNet/commit/5ab7a4a64f3f9739c216512886a9a3a42330b81e))
+
+
+### Documentation
+
+* fix 23 broken relative links and expand link gate to all docs ([#1946](https://github.com/Ikalus1988/MisakaNet/issues/1946)) ([97ab2a0](https://github.com/Ikalus1988/MisakaNet/commit/97ab2a045c2239ca14024ebb2050cb86afb4f362))
+* **roadmap:** milestone ② is live, not just locally green ([a39ba25](https://github.com/Ikalus1988/MisakaNet/commit/a39ba25d687267f3c0cfea1173f0e9e245e36f76))
+* **roadmap:** milestone ② is live, not just locally green ([8e5d4b8](https://github.com/Ikalus1988/MisakaNet/commit/8e5d4b806e6eebae5e1b9ff177b08dc1f307a5b3))
+
+
+### Tests
+
+* **intake:** the [#1130](https://github.com/Ikalus1988/MisakaNet/issues/1130) receipt case, now that its lesson is on main ([3d339f9](https://github.com/Ikalus1988/MisakaNet/commit/3d339f99b27f810c390f929d77dbb992ef0577cc))
+* **intake:** the [#1130](https://github.com/Ikalus1988/MisakaNet/issues/1130) receipt case, now that its lesson is on main ([8bde87d](https://github.com/Ikalus1988/MisakaNet/commit/8bde87d2befe9296b840f6591b040a6d1876dbed))
+
 ## [2.34.0](https://github.com/Ikalus1988/MisakaNet/compare/v2.33.0...v2.34.0) (2026-09-21)
 
 
